@@ -2,9 +2,13 @@
 
 Visual dashboard for managing your local development servers.
 
-## Quick Start
+## Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/nicholaspetersen/dev-dashboard.git
+cd dev-dashboard
+
 # Install dependencies
 npm install
 
