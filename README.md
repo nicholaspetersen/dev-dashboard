@@ -29,6 +29,14 @@ The dashboard will be available at:
 - ✅ Real-time log streaming via WebSocket
 - ✅ Portable configuration using `~` paths
 
+## Setup for Your Machine
+
+After cloning, you'll need to configure your own projects:
+
+1. Edit `dev-dashboard.config.json` and update the `projects` array with your local projects
+2. Use `~` for home directory paths (e.g., `"~/Sites/my-project"`) for portability
+3. Run `npm run dev` to start the dashboard
+
 ## Configuration
 
 Edit `dev-dashboard.config.json` to add/modify projects:
